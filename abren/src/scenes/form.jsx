@@ -261,11 +261,12 @@ const Form = () => {
             
              }}
               >Sign Up</button>
-              <p>Already have an account?<span style={{
-                 color: '#6791AF',
-                 paddingTop :'5px'
-              }}> Log In</span></p>
+             <p>
+              Already have an account?{' '}
+              <a href="/" style={{ color: '#213D52' }}>Login</a>
+            </p>
             </form>
+            
           )}
         </div>
       </div>
